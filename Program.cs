@@ -21,7 +21,7 @@ namespace Calculadora
                 Console.WriteLine("3 - Multiplicação");
                 Console.WriteLine("4 - Divisão");
                 Console.WriteLine("5 - Sair");
-                Console.Write("\nEscolha a operação que deseja realizar: ");
+                Console.Write("\nEscolha a operação que deseja utilizar: ");
                 selecao = Validador.Opcao();
 
                 switch (selecao)
