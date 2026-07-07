@@ -10,7 +10,7 @@ namespace Calculadora
             Console.WriteLine("*** ADIÇÃO ***");
 
             float num1 = Validador.Operacoes("\nDigite o primeiro número: ");
-            float num2 = Validador.Operacoes("Digite o primeiro número: ");
+            float num2 = Validador.Operacoes("Digite o segundo número: ");
 
             Console.WriteLine($"\nO resultado deu: {num1 + num2}");
         }
@@ -19,7 +19,7 @@ namespace Calculadora
             Console.WriteLine("*** SUBTRAÇÃO ***");
 
             float num1 = Validador.Operacoes("\nDigite o primeiro número: ");
-            float num2 = Validador.Operacoes("Digite o primeiro número: ");
+            float num2 = Validador.Operacoes("Digite o segundo número: ");
 
             Console.WriteLine($"\nO resultado deu: {num1 - num2}");
         }
@@ -28,7 +28,7 @@ namespace Calculadora
             Console.WriteLine("*** MULTIPLICAÇÃO ***");
 
             float num1 = Validador.Operacoes("\nDigite o primeiro número: ");
-            float num2 = Validador.Operacoes("Digite o primeiro número: ");
+            float num2 = Validador.Operacoes("Digite o segundo número: ");
 
             Console.WriteLine($"\nO resultado deu: {num1 * num2}");
         }
@@ -37,7 +37,7 @@ namespace Calculadora
             Console.WriteLine("*** DIVISÃO ***");
 
             float num1 = Validador.Operacoes("\nDigite o primeiro número: ");
-            float num2 = Validador.Operacoes("Digite o primeiro número: ");
+            float num2 = Validador.Operacoes("Digite o segundo número: ");
 
             if (num2 == 0 || num1 == 0)
             {
